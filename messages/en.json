@@ -1,0 +1,220 @@
+{
+  "nav": {
+    "home": "Home",
+    "status": "Status",
+    "wiki": "Wiki",
+    "livemap": "Live map"
+  },
+  "ui": {
+    "expandAll": "Expand all",
+    "collapseAll": "Collapse all",
+    "search": "Search features…",
+    "noResults": "Nothing matched that.",
+    "all": "All",
+    "commands": "Commands",
+    "draft": "Placeholder",
+    "importantNotice": "Important notice",
+    "goodToKnow": "Good to know",
+    "ruleCount": "{count} rules",
+    "rulesFooter": "The team may change these rules at any time without notice. The version valid at the time of the offence applies.",
+    "searchRules": "Search rules…",
+    "matchCount": "{count} matches",
+    "mapLoading": "Loading the map …",
+    "mapLoad": "Load map"
+  },
+  "hero": {
+    "tagline": "The greenest SMP server of 2026 — Folia performance, a fair economy, and a community that sticks together.",
+    "copy": "Click to copy",
+    "online": "Online",
+    "offline": "Offline",
+    "maintenance": "Maintenance",
+    "playersOnline": "Come play with us!",
+    "eyebrow": "Java & Bedrock · Survival network",
+    "players": "players"
+  },
+  "topPlaytime": {
+    "title": "Top 3 playtime",
+    "cta": "See the full top 10"
+  },
+  "features": {
+    "eyebrow": "Features",
+    "lead": "Not just another server – every system is well thought out, works together, and stays exciting long-term.",
+    "items": {
+      "performance": {
+        "title": "Folia Performance",
+        "desc": "Our core worlds mostly run on Folia — multi-threaded region-based ticking ensures consistently high TPS, no matter how many players are online."
+      },
+      "economy": {
+        "title": "Fair Economy",
+        "desc": "No pay-to-win — the auction house, jobs, and marketplace are entirely driven by the community."
+      },
+      "events": {
+        "title": "Regular Events",
+        "desc": "Duels, bounty hunts, and seasonal events keep things fresh beyond regular survival."
+      },
+      "anticheat": {
+        "title": "Strong Anti-Cheat",
+        "desc": "Custom-built protection systems against X-Ray, ESP, and cheats keep play fair for everyone."
+      },
+      "crossplay": {
+        "title": "Java & Bedrock",
+        "desc": "Play cross-platform with friends — whether on PC, console, or mobile."
+      },
+      "community": {
+        "title": "Active Community",
+        "desc": "A dedicated team and a lively Discord community are always there for you."
+      }
+    },
+    "title": "Why WildMine?"
+  },
+  "networkWiki": {
+    "eyebrow": "Wiki",
+    "lead": "Four systems that follow you everywhere on the network. Click a tile for the full details.",
+    "cta": "Open the full wiki",
+    "title": "Systems that apply everywhere"
+  },
+  "stats": {
+    "playersOnline": "Players online",
+    "registered": "Registered players"
+  },
+  "serverStatus": {
+    "online": "Online",
+    "offline": "Offline",
+    "maintenance": "Maintenance",
+    "players": "Players",
+    "tps": "TPS",
+    "queue": "In queue",
+    "loading": "Loading server status…",
+    "unavailable": "The server status is currently unavailable.",
+    "networkMaintenance": "The network is currently under maintenance.",
+    "networkMaintenanceUntil": "The network is under maintenance — {remaining} left."
+  },
+  "serverAge": {
+    "label": "Live since Jun 18, 2025",
+    "days": "days"
+  },
+  "discordWidget": {
+    "title": "WildMine Discord",
+    "members": "Discord User",
+    "online": "Online",
+    "cta": "Join the server",
+    "open": "Open Discord"
+  },
+  "playtimeLeaderboard": {
+    "title": "Most Playtime",
+    "subtitle": "Network-wide, across all game modes",
+    "loading": "Loading leaderboard…",
+    "empty": "No data available yet.",
+    "eyebrow": "Ranking"
+  },
+  "community": {
+    "eyebrow": "Community",
+    "lead": "Like-minded players, direct support from the team, and exclusive events — all in one place.",
+    "tags": {
+      "active": "Active Community",
+      "support": "24/7 Support",
+      "updates": "Exclusive Updates",
+      "events": "Events & Giveaways"
+    },
+    "cta": "Join Discord",
+    "title": "Join the community"
+  },
+  "footer": {
+    "tagline": "The greenest minecraft network since 2025.",
+    "rights": "All rights reserved. Not affiliated with Mojang AB or Microsoft!",
+    "legal": {
+      "imprint": "Legal notice",
+      "terms": "Terms",
+      "privacy": "Privacy"
+    },
+    "store": "Store",
+    "columns": {
+      "nav": "Navigation",
+      "legal": "Legal"
+    }
+  },
+  "modes": {
+    "eyebrow": "Game Modes",
+    "lead": "Multiple modes, one server — the right fit for every playstyle.",
+    "status": {
+      "live": "Live",
+      "soon": "Coming Soon",
+      "wip": "Planned"
+    },
+    "cta": "Learn more",
+    "eventBadge": "Event",
+    "back": "Back to home",
+    "playersOnline": "{count} online",
+    "atAGlance": "At a glance",
+    "wikiTitle": "Features & systems",
+    "wikiLead": "Every tile expands — inside you'll find how it works and every matching command.",
+    "sections": {
+      "rules": "Rules",
+      "wiki": "Wiki",
+      "livemap": "Live map"
+    },
+    "modeRules": "Every rule that applies in this mode",
+    "wildsmp": {
+      "title": "WildSMP",
+      "tagline": "The heart of WildMine.",
+      "description": "WildSMP is the relaxed heart of our server — classic survival with a fair economy, claims and community events. PvP happens only inside the farm worlds, while the main world stays protected living and building space.",
+      "badge": "Main mode"
+    },
+    "wildblock": {
+      "title": "WildBlock",
+      "tagline": "Our most active mode — OneBlock at its finest.",
+      "description": "WildBlock is currently the most active OneBlock mode on WildMine. Start on a single block in the middle of nowhere and unlock new phases, rewards, and challenges as your island transforms piece by piece. Everyone plays solo — there is no PvP here."
+    },
+    "wildcity": {
+      "title": "WildCity",
+      "tagline": "Roleplay in one massive city.",
+      "description": "WildCity will eventually become our roleplay mode, where everything takes place in one massive city — complete with its own jobs, districts, and stories. It is still a long way out: we are focusing on WildSMP and WildAttack first. You will hear it on our Discord as soon as there is anything concrete."
+    },
+    "wildattack": {
+      "title": "WildAttack",
+      "tagline": "Launches 10 October 2026 at 6 pm.",
+      "description": "WildAttack is our own mode, inspired by CraftAttack and timed to the start of CraftAttack 14. Open survival with a claim system. PvP is off by default — /pvp switches it for you, and each switch starts a 12 hour cooldown.",
+      "statusLabel": "Launches 10 Oct 2026",
+      "taglineLive": "Open survival with a PvP toggle."
+    },
+    "liveMapTitle": "Live maps",
+    "title": "Pick your mode"
+  },
+  "pages": {
+    "status": {
+      "title": "Network status",
+      "lead": "Live numbers straight from our proxy: players, server load and the playtime ranking.",
+      "overview": {
+        "players": "Players online",
+        "servers": "Servers reachable",
+        "registered": "Registered players",
+        "daysOnline": "Days online"
+      },
+      "servers": {
+        "title": "Server status",
+        "lead": "Every game mode with player count, load and availability.",
+        "eyebrow": "Servers"
+      },
+      "eyebrow": "Live"
+    },
+    "wiki": {
+      "title": "Wiki",
+      "lead": "Every feature and system on the network at a glance. Click a tile to expand it.",
+      "eyebrow": "Reference"
+    },
+    "livemap": {
+      "title": "Live maps",
+      "lead": "Watch our worlds in real time — drag to move, scroll to zoom.",
+      "empty": "No map is available right now.",
+      "eyebrow": "Maps"
+    },
+    "notFound": {
+      "title": "This page does not exist",
+      "lead": "The link is wrong or the page has moved. From here you can get anywhere."
+    }
+  },
+  "legal": {
+    "eyebrow": "Legal",
+    "germanOnly": "These documents apply in their German wording. There is no English translation, because only the German text is binding."
+  }
+}

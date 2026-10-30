@@ -1,0 +1,220 @@
+{
+  "nav": {
+    "home": "Home",
+    "status": "Status",
+    "wiki": "Wiki",
+    "livemap": "LiveMap"
+  },
+  "ui": {
+    "expandAll": "Alle ausklappen",
+    "collapseAll": "Alle einklappen",
+    "search": "Feature suchen…",
+    "noResults": "Dazu haben wir nichts gefunden.",
+    "all": "Alle",
+    "commands": "Befehle",
+    "draft": "Platzhalter",
+    "importantNotice": "Wichtiger Hinweis",
+    "goodToKnow": "Gut zu wissen",
+    "ruleCount": "{count} Regeln",
+    "rulesFooter": "Das Team behält sich vor, das Regelwerk jederzeit unangekündigt anzupassen. Bei einem Verstoß gelten die Regeln zum Zeitpunkt des Geschehens.",
+    "searchRules": "Regel suchen…",
+    "matchCount": "{count} Treffer",
+    "mapLoading": "Karte wird geladen …",
+    "mapLoad": "Karte laden"
+  },
+  "hero": {
+    "tagline": "Der grünste SMP-Server 2026 — Folia-Performance, faire Wirtschaft und eine Community, die zusammenhält.",
+    "copy": "Zum Kopieren klicken",
+    "online": "Online",
+    "offline": "Offline",
+    "maintenance": "Wartungsarbeiten",
+    "playersOnline": "Spiel doch mit!",
+    "eyebrow": "Java & Bedrock · Survival-Netzwerk",
+    "players": "Spieler"
+  },
+  "topPlaytime": {
+    "title": "Top 3 Spielzeit",
+    "cta": "Alle Top 10 ansehen"
+  },
+  "features": {
+    "eyebrow": "Features",
+    "lead": "Kein 08/15-Server – jedes System ist durchdacht, aufeinander abgestimmt und langfristig spannend.",
+    "items": {
+      "performance": {
+        "title": "Folia-Performance",
+        "desc": "Unsere Kernwelten laufen größtenteils auf Folia — Multi-Threaded Region-based Ticking sorgt für konstant hohe TPS, egal wie viele Spieler online sind."
+      },
+      "economy": {
+        "title": "Faire Wirtschaft",
+        "desc": "Kein Pay-to-Win — Auktionshaus, Jobs und Marktplatz werden von der Community selbst getragen."
+      },
+      "events": {
+        "title": "Regelmäßige Events",
+        "desc": "Duelle, Kopfgeld-Jagden und saisonale Events sorgen für Abwechslung abseits des normalen Survivals."
+      },
+      "anticheat": {
+        "title": "Starkes Anti-Cheat",
+        "desc": "Eigenentwickelte Schutzsysteme gegen X-Ray, ESP und Cheats sichern faires Spiel für alle."
+      },
+      "crossplay": {
+        "title": "Java & Bedrock",
+        "desc": "Spiele plattformübergreifend mit Freunden — egal ob PC, Konsole oder Mobile."
+      },
+      "community": {
+        "title": "Aktive Community",
+        "desc": "Ein engagiertes Team und eine lebendige Discord-Community sind immer für dich da."
+      }
+    },
+    "title": "Warum WildMine?"
+  },
+  "networkWiki": {
+    "eyebrow": "Wiki",
+    "lead": "Vier Systeme, die dich überall im Netzwerk begleiten. Klick auf ein Feld für alle Details.",
+    "cta": "Zum vollständigen Wiki",
+    "title": "Systeme für alle Modi"
+  },
+  "stats": {
+    "playersOnline": "Spieler online",
+    "registered": "Registrierte Spieler"
+  },
+  "serverStatus": {
+    "online": "Online",
+    "offline": "Offline",
+    "maintenance": "Wartung",
+    "players": "Spieler",
+    "tps": "TPS",
+    "queue": "In der Warteschlange",
+    "loading": "Lade Serverstatus…",
+    "unavailable": "Der Serverstatus ist gerade nicht verfügbar.",
+    "networkMaintenance": "Das Netzwerk befindet sich aktuell in Wartung.",
+    "networkMaintenanceUntil": "Das Netzwerk ist in Wartung — noch {remaining}."
+  },
+  "serverAge": {
+    "label": "Live seit dem 18.06.2025",
+    "days": "Tage"
+  },
+  "discordWidget": {
+    "title": "WildMine Discord",
+    "members": "Discord User",
+    "online": "Online",
+    "cta": "Server beitreten",
+    "open": "Zum Discord"
+  },
+  "playtimeLeaderboard": {
+    "title": "Meiste Spielzeit",
+    "subtitle": "Netzwerkweit, über alle Modi hinweg",
+    "loading": "Lade Rangliste…",
+    "empty": "Noch keine Daten verfügbar.",
+    "eyebrow": "Rangliste"
+  },
+  "community": {
+    "eyebrow": "Community",
+    "lead": "Gleichgesinnte, direkter Support vom Team und exklusive Events — alles an einem Ort.",
+    "tags": {
+      "active": "Aktive Community",
+      "support": "24/7 Support",
+      "updates": "Exklusive Updates",
+      "events": "Events & Giveaways"
+    },
+    "cta": "Discord beitreten",
+    "title": "Werde Teil der Community"
+  },
+  "footer": {
+    "tagline": "Das grünste Minecraft-Netzwerk seit 2025.",
+    "rights": "Alle Rechte vorbehalten. Nicht mit Mojang AB oder Microsoft verbunden!",
+    "legal": {
+      "imprint": "Impressum",
+      "terms": "AGB",
+      "privacy": "Datenschutz"
+    },
+    "store": "Shop",
+    "columns": {
+      "nav": "Navigation",
+      "legal": "Rechtliches"
+    }
+  },
+  "modes": {
+    "eyebrow": "Spielmodi",
+    "lead": "Mehrere Modi, ein Server — für jeden Spielstil das Richtige.",
+    "status": {
+      "live": "Live",
+      "soon": "Bald verfügbar",
+      "wip": "In Zukunft"
+    },
+    "cta": "Mehr erfahren",
+    "eventBadge": "Event",
+    "back": "Zurück zur Startseite",
+    "playersOnline": "{count} online",
+    "atAGlance": "Auf einen Blick",
+    "wikiTitle": "Features & Systeme",
+    "wikiLead": "Jedes Feld lässt sich aufklappen — dort findest du die Funktionsweise und alle zugehörigen Befehle.",
+    "sections": {
+      "rules": "Regelwerk",
+      "wiki": "Wiki",
+      "livemap": "LiveMap"
+    },
+    "modeRules": "Alle Regeln, die in diesem Modus gelten",
+    "wildsmp": {
+      "title": "WildSMP",
+      "tagline": "Das Herzstück von WildMine.",
+      "description": "WildSMP ist das entspannte Herzstück unseres Servers — klassisches Survival mit fairer Wirtschaft, Claims und Community-Events. PvP findet ausschließlich in den Farmwelten statt, die Hauptwelt bleibt geschützter Bau- und Lebensraum.",
+      "badge": "Hauptmodus"
+    },
+    "wildblock": {
+      "title": "WildBlock",
+      "tagline": "Unser aktivster Modus — OneBlock at its finest.",
+      "description": "WildBlock ist aktuell der aktivste OneBlock-Modus auf WildMine. Starte auf einem einzigen Block mitten im Nichts und schalte immer neue Phasen, Belohnungen und Herausforderungen frei, während sich deine Insel Stück für Stück verwandelt. Jeder spielt für sich allein — PvP gibt es hier nicht."
+    },
+    "wildcity": {
+      "title": "WildCity",
+      "tagline": "Rollenspiel in einer riesigen Stadt.",
+      "description": "WildCity wird irgendwann unser Rollenspiel-Modus, bei dem sich alles in einer einzigen, riesigen Stadt abspielt — mit eigenen Jobs, Vierteln und Geschichten. Der Modus ist noch Zukunftsmusik: Zuerst konzentrieren wir uns voll auf WildSMP und WildAttack. Sobald es konkret wird, erfährst du es zuerst auf unserem Discord."
+    },
+    "wildattack": {
+      "title": "WildAttack",
+      "tagline": "Startet am 10.10.2026 um 18 Uhr.",
+      "description": "WildAttack ist unser eigener, von CraftAttack inspirierter Modus zum Start von CraftAttack 14. Offenes Survival mit Claim-System. PvP ist standardmäßig aus — mit /pvp schaltest du es für dich um, danach gilt ein Cooldown von 12 Stunden.",
+      "statusLabel": "Start 10.10.2026",
+      "taglineLive": "Offenes Survival mit PvP-Schalter."
+    },
+    "liveMapTitle": "LiveMaps",
+    "title": "Such dir deinen Modus"
+  },
+  "pages": {
+    "status": {
+      "title": "Netzwerk-Status",
+      "lead": "Live-Zahlen direkt aus unserem Proxy: Spieler, Serverauslastung und Spielzeit-Rangliste.",
+      "overview": {
+        "players": "Spieler online",
+        "servers": "Server erreichbar",
+        "registered": "Registrierte Spieler",
+        "daysOnline": "Tage online"
+      },
+      "servers": {
+        "title": "Serverstatus",
+        "lead": "Alle Spielmodi mit Spielerzahl, Auslastung und Verfügbarkeit.",
+        "eyebrow": "Server"
+      },
+      "eyebrow": "Live"
+    },
+    "wiki": {
+      "title": "Wiki",
+      "lead": "Alle Features und Systeme des Netzwerks auf einen Blick. Klick auf ein Feld, um es aufzuklappen.",
+      "eyebrow": "Nachschlagen"
+    },
+    "livemap": {
+      "title": "LiveMaps",
+      "lead": "Schau dir unsere Welten in Echtzeit an — ziehen zum Bewegen, scrollen zum Zoomen.",
+      "empty": "Aktuell ist keine Karte verfügbar.",
+      "eyebrow": "Karten"
+    },
+    "notFound": {
+      "title": "Diese Seite gibt es nicht",
+      "lead": "Der Link ist falsch oder die Seite wurde verschoben. Von hier kommst du überall hin."
+    }
+  },
+  "legal": {
+    "eyebrow": "Rechtliches",
+    "germanOnly": "Diese Dokumente gelten in der deutschen Fassung. Eine englische Übersetzung gibt es nicht, da nur der deutsche Wortlaut verbindlich ist."
+  }
+}

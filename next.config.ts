@@ -12,7 +12,7 @@ const nextConfig: NextConfig = {
     // Fetched by our server, never by the visitor's browser — see the note on
     // the Image calls. Anything added here must stay on that side of the line.
     remotePatterns: [
-      { protocol: "https", hostname: "mc-heads.net", pathname: "/avatar/**" },
+      { protocol: "https", hostname: "minotar.net", pathname: "/helm/**" },
       { protocol: "https", hostname: "cdn.discordapp.com", pathname: "/icons/**" },
     ],
   },

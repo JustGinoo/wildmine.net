@@ -77,10 +77,10 @@ export default function TopPlaytime() {
                 {entry.rank}
               </span>
               {/* No `unoptimized`: the optimizer fetches the head server
-                  side, so the visitor's browser never calls mc-heads.net and
+                  side, so the visitor's browser never calls minotar.net and
                   no IP address leaves for a third party. */}
               <Image
-                src={`https://mc-heads.net/avatar/${encodeURIComponent(entry.name)}/32`}
+                src={`https://minotar.net/helm/${encodeURIComponent(entry.name)}/32`}
                 alt=""
                 width={24}
                 height={24}

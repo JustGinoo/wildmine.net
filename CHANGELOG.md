@@ -1,5 +1,9 @@
 # Changelog
 
+## 30.10.2026 – Spielerköpfe
+
+- **Spielerköpfe kommen von minotar.net statt mc-heads.net.** mc-heads.net sperrt Anfragen vom Server per Cloudflare-Bot-Schutz (403), dadurch fehlten die Köpfe in der Spielzeit-Rangliste. Geladen wird weiterhin serverseitig, Besucher rufen den Dienst nicht selbst auf.
+
 ## 30.10.2026 – Aufräumen & Performance
 
 ### Neu

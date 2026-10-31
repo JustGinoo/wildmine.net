@@ -11,7 +11,6 @@ import {
   penaltyItems,
   realMoneyRule,
   tradeCommandRule,
-  trustAbuseRule,
   trustRiskRule,
 } from "./shared";
 
@@ -233,11 +232,15 @@ export const wildattackRules: RuleSet = {
           "Cratering whole areas, large-scale lava floods, setting the world on fire.",
         ),
       ),
-      trustAbuseRule("4.5"),
+      r(
+        "4.5",
+        "Das dauerhafte Einsperren oder Festhalten von Spielern gegen ihren Willen ist verboten.",
+        "Permanently trapping or holding players against their will is forbidden.",
+      ),
       r(
         "4.6",
-        "Das dauerhafte Einsperren oder Festhalten von Spielern ist verboten.",
-        "Permanently trapping or holding players is forbidden.",
+        "Wer andere Spieler auf seinem Claim trustet, tut das auf eigenes Risiko. Nimmt oder zerstört ein getrusteter Spieler etwas, wird das weder bestraft noch ersetzt.",
+        "Trusting other players on your claim is at your own risk. If a trusted player takes or destroys something, it is neither punished nor replaced.",
       ),
     ]),
     p("5", "coins", "Handel, Wirtschaft & Scamming", "Trading, economy & scamming", [

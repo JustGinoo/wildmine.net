@@ -1,5 +1,12 @@
 # Changelog
 
+## 31.10.2026 – WildAttack-Regelwerk
+
+- **Regel 4.5 entfernt** (Bestrafung und Schadenersatz bei Trust-Missbrauch). Wer andere trustet, trägt das Risiko selbst.
+- **Neue Regel 4.6:** Trusten auf dem eigenen Claim geschieht auf eigenes Risiko. Nimmt oder zerstört ein getrusteter Spieler etwas, wird das weder bestraft noch ersetzt.
+- **Regel 4.5 (vorher 4.6):** Einsperren oder Festhalten ist nur noch verboten, wenn es *gegen den Willen* des Spielers passiert.
+- WildSMP behält seine Trust-Regel (6.4) unverändert.
+
 ## 30.10.2026 – Spielerköpfe
 
 - **Spielerköpfe kommen von minotar.net statt mc-heads.net.** mc-heads.net sperrt Anfragen vom Server per Cloudflare-Bot-Schutz (403), dadurch fehlten die Köpfe in der Spielzeit-Rangliste. Geladen wird weiterhin serverseitig, Besucher rufen den Dienst nicht selbst auf.

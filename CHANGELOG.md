@@ -1,5 +1,11 @@
 # Changelog
 
+## 01.11.2026 – Wiki: WildAttack-Werte
+
+- **Combat-Tag:** auf der WildAttack-Seite 30 Sekunden, auf der WildSMP-Seite 15 Sekunden. Das Gesamt-Wiki nennt beide Werte.
+- **Einstellungen:** Auf der WildAttack-Seite fehlen die „Coinflip-Ansagen“, weil es dort kein Coinflip gibt.
+- Technisch: `getModeWiki` kann geteilte Wiki-Einträge pro Modus anpassen (`modeOverrides` in `src/data/wiki.ts`).
+
 ## 01.11.2026 – WildAttack ohne SMP-Regeln
 
 WildAttack hat keine Farmwelt, keine ChestShops, kein Coinflip und keinen Server-Shop. Die Regeln dazu stammten aus dem SMP-Regelwerk und sind raus (**57 → 54 Regeln**).

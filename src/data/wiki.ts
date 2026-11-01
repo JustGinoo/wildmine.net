@@ -770,8 +770,30 @@ const modeWikiIds: Record<string, string[]> = {
 };
 
 /** Empty for modes without a wiki yet, so the page can skip the section. */
+const withFact = (entry: WikiEntry, labelDe: string, valueDe: string, valueEn: string): WikiEntry => ({
+  ...entry,
+  facts: entry.facts?.map((fact) => (fact.label.de === labelDe ? { ...fact, value: { de: valueDe, en: valueEn } } : fact)),
+});
+
+const withoutFact = (entry: WikiEntry, labelDe: string): WikiEntry => ({
+  ...entry,
+  facts: entry.facts?.filter((fact) => fact.label.de !== labelDe),
+});
+
+/** Where a shared feature works differently in one mode, the mode page shows that mode's values. */
+const modeOverrides: Record<string, Record<string, (entry: WikiEntry) => WikiEntry>> = {
+  wildattack: {
+    "combat-tag": (entry) => withFact(entry, "Dauer", "30 Sekunden", "30 seconds"),
+    settings: (entry) => withoutFact(entry, "Coinflip-Ansagen"),
+  },
+  wildsmp: {
+    "combat-tag": (entry) => withFact(entry, "Dauer", "15 Sekunden", "15 seconds"),
+  },
+};
+
 export function getModeWiki(slug: string): WikiEntry[] {
-  return resolve(modeWikiIds[slug] ?? []);
+  const overrides = modeOverrides[slug] ?? {};
+  return resolve(modeWikiIds[slug] ?? []).map((entry) => overrides[entry.id]?.(entry) ?? entry);
 }
 
 /**

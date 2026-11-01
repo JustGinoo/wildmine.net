@@ -401,7 +401,7 @@ export const extraWikiEntries: WikiEntry[] = [
       en: "In a fight you are tagged briefly and a countdown runs in the action bar. Log out during it and you die anyway, dropping your inventory — with a server-wide message. Whoever attacks you is tagged just the same.",
     },
     facts: [
-      f("Dauer", "Duration", "15 Sekunden", "15 seconds"),
+      f("Dauer", "Duration", "WildSMP 15 Sekunden · WildAttack 30 Sekunden", "WildSMP 15 seconds · WildAttack 30 seconds"),
       f("Gesperrte Befehle", "Blocked commands", "/spawn · /home · /warp · /tp · /fly · /perks", "/spawn · /home · /warp · /tp · /fly · /perks"),
       f("Teleports", "Teleports", "Alle Plugin-Teleports blockiert", "All plugin teleports blocked"),
       f("Combat-Log", "Combat log", "Tod + volles Inventar fällt", "Death + full inventory drops"),

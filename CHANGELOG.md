@@ -1,5 +1,10 @@
 # Changelog
 
+## 01.11.2026 – WildAttack: TNT-Duper
+
+- **Regel 6.3 neu:** TNT-Duper sind stationär **und** beweglich erlaubt (z. B. Tunnelbohrer, Flugmaschinen) und müssen bei Nichtnutzung abgeschaltet sein. Item-Duper bleiben verboten (§6.8, permanenter Bann).
+- Hinweis dazu: Bewegliche Duper dürfen nicht in fremde Claims fahren und keine ganzen Gebiete zerstören (§4.1, §4.4).
+
 ## 31.10.2026 – WildAttack-Regelwerk
 
 - **Regel 4.5 entfernt** (Bestrafung und Schadenersatz bei Trust-Missbrauch). Wer andere trustet, trägt das Risiko selbst.

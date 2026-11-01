@@ -300,8 +300,12 @@ export const wildattackRules: RuleSet = {
       ),
       r(
         "6.3",
-        "Stationäre TNT-Duper ohne Bewegung sind erlaubt, müssen bei Nichtnutzung jedoch deaktiviert sein.",
-        "Stationary TNT dupers without movement are allowed, but must be switched off when not in use.",
+        "TNT-Duper sind erlaubt, stationär wie beweglich (z. B. Tunnelbohrer oder Flugmaschinen). Bei Nichtnutzung müssen sie abgeschaltet sein. Item-Duper sind verboten (§6.8).",
+        "TNT dupers are allowed, stationary as well as moving ones (e.g. tunnel bores or flying machines). They must be switched off when not in use. Item dupers are forbidden (§6.8).",
+        n(
+          "Bewegliche Duper dürfen nicht in fremde Claims fahren und keine ganzen Gebiete zerstören (§4.1, §4.4).",
+          "Moving dupers must not enter other players' claims or destroy whole areas (§4.1, §4.4).",
+        ),
       ),
       r(
         "6.4",

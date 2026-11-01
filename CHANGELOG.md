@@ -1,5 +1,28 @@
 # Changelog
 
+## 01.11.2026 – WildAttack-Regelwerk kompakt
+
+Doppelungen zusammengefasst und vage Regeln gestrichen: **87 → 57 Regeln**, 11 statt 12 Paragraphen. Die Nummern haben sich dadurch geändert.
+
+### Geändert
+- **PvP:** Cooldown (alle 12 Stunden per /pvp) und „im Kampf nicht ausschaltbar“ sind Systemverhalten und stehen nur noch im Infotext. Neu als Regel: 30 Sekunden nach einem Treffer kein Ausloggen, Serverwechsel oder Teleport (§1.3).
+- **Fallen (§1.6):** Spieler dürfen nicht gegen ihren Willen eingesperrt werden, TPA-Fallen und Fallen zum Töten von Spielern sind verboten (ersetzt die alten Regeln zu Fallen und Einsperren).
+- **Trust (§2.3):** Wer Trust hat, darf auf dem Claim alles; nichts davon wird bestraft oder ersetzt. Griefing-Verbot (§2.2) gilt nur ohne Trust.
+- **Ohne Claim kein Schutz (§2.1)** steht nur noch einmal drin.
+
+### Zusammengefasst
+- PvP-Schutz umgehen inkl. Fallen und Redstone-Anlagen → §1.1
+- Druck zu PvP und Schutzgeld/Erpressung → §1.4
+- Claim-Blocking und blockierte öffentliche Bereiche → §2.4, Spawn/Straßen/Highways/Portale → §3.2
+- Flächen- und Massenzerstörung → §3.3
+- Scam, Wortbruch, falsche Shops → §4.1; Wetten und Coinflip → §4.4
+- Performance: Clocks, Farmen, Hoppernetze → §5.2
+- PvP-Verlust, Loot, Ersatz → §6.1–6.4
+
+### Entfernt
+- „Dauerjagen einzelner Spieler“, „bewusst unfaire Preise“, „Grundgedanke“ und „extrem unschöne Bauten“ (zu vage)
+- Eigene Regeln zu Claim-Verkauf und Wetten nur gegen Ingame-Währung (deckt §4.3 ab)
+
 ## 01.11.2026 – WildAttack: TNT-Duper
 
 - **Regel 6.3 neu:** TNT-Duper sind stationär **und** beweglich erlaubt (z. B. Tunnelbohrer, Flugmaschinen) und müssen bei Nichtnutzung abgeschaltet sein. Item-Duper bleiben verboten (§6.8, permanenter Bann).

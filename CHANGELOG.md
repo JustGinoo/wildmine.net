@@ -1,5 +1,12 @@
 # Changelog
 
+## 01.11.2026 – WildAttack ohne SMP-Regeln
+
+WildAttack hat keine Farmwelt, keine ChestShops, kein Coinflip und keinen Server-Shop. Die Regeln dazu stammten aus dem SMP-Regelwerk und sind raus (**57 → 54 Regeln**).
+
+- Entfernt: Farmwelt-Regel und „Farmwelt“ im Geltungsbereich, ChestShops beim Scamming, Coinflip, Regel zu Shop- und Systempreisen, Regel zu falsch gutgeschriebenen Münzen.
+- **Glücksspiel (§4.4) neu:** gibt es nur, wenn Spieler es selbst bauen (z. B. mit Droppern). Die Gewinnchance muss gut sichtbar dranstehen, als Prozent oder z. B. „1 von 9“.
+
 ## 01.11.2026 – Winter-Design
 
 - **Neu: `SITE_SEASON` in der `.env`** erzwingt ein saisonales Design (`winter`, `halloween`, `default`). Ohne Eintrag entscheidet weiterhin das Datum.

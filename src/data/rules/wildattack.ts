@@ -20,8 +20,8 @@ export const wildattackRules: RuleSet = {
     en: "WildAttack rules",
   },
   scope: {
-    de: "Gilt für WildAttack inklusive Hauptwelt, Nether, End, Farmwelt und der zugehörigen Wirtschaft.",
-    en: "Applies to WildAttack including the main world, Nether, End, farm world and the economy.",
+    de: "Gilt für WildAttack inklusive Hauptwelt, Nether, End und der zugehörigen Wirtschaft.",
+    en: "Applies to WildAttack including the main world, Nether, End and the economy.",
   },
   notice: {
     de: `${modsNotice("7", { legacyFreecam: true }).de} PvP ist auf WildAttack standardmäßig aus. Mit /pvp schaltest du es alle 12 Stunden für dich an oder aus, im Kampf geht das nicht. Schaden zwischen zwei Spielern gibt es nur, wenn beide PvP an haben.`,
@@ -128,29 +128,19 @@ export const wildattackRules: RuleSet = {
           "For example blowing up whole areas, large-scale lava floods or setting the world on fire.",
         ),
       ),
-      r(
-        "3.4",
-        "Die Farmwelt ist zum Abbauen da. Bauten dort werden beim Reset ersatzlos gelöscht.",
-        "The farm world is for mining. Builds there are deleted on reset without replacement.",
-      ),
     ]),
     p("4", "coins", "Handel & Wirtschaft", "Trading & economy", [
       r(
         "4.1",
-        "Betrug und Scamming sind verboten. Dazu zählen gebrochene Absprachen bei einem laufenden Handel und falsch beschriftete ChestShops.",
-        "Fraud and scamming are forbidden. This includes breaking agreements mid-trade and mislabelled chest shops.",
+        "Betrug und Scamming sind verboten. Dazu zählt auch, eine Absprache bei einem laufenden Handel zu brechen.",
+        "Fraud and scamming are forbidden. This includes breaking an agreement mid-trade.",
       ),
       tradeCommandRule("4.2"),
       realMoneyRule("4.3"),
       r(
         "4.4",
-        "Wetten und Glücksspiel sind nur mit fairen, transparenten Bedingungen erlaubt. Verluste bei Coinflip und ähnlichen Systemen werden nicht erstattet.",
-        "Bets and gambling are only allowed on fair, transparent terms. Losses from coinflip and similar systems are not refunded.",
-      ),
-      r(
-        "4.5",
-        "Fehlerhafte Shop- und Systempreise meldest du dem Team, statt sie auszunutzen.",
-        "Report wrong shop and system prices to the team instead of exploiting them.",
+        "Glücksspiel gibt es nur, wenn Spieler es selbst bauen, etwa mit Droppern. Die Gewinnchance muss gut sichtbar dranstehen, als Prozent oder z. B. „1 von 9“. Verluste werden nicht erstattet.",
+        "Gambling only exists when players build it themselves, for example with droppers. The odds must be clearly shown on it, as a percentage or e.g. \"1 in 9\". Losses are not refunded.",
       ),
     ]),
     p("5", "cog", "Technik & Redstone", "Tech & redstone", [
@@ -170,7 +160,7 @@ export const wildattackRules: RuleSet = {
         "TNT-Duper sind erlaubt, stationär wie beweglich (z. B. Tunnelbohrer oder Flugmaschinen). Bei Nichtnutzung müssen sie abgeschaltet sein und dürfen nicht in fremde Claims fahren (§2.2, §3.3).",
         "TNT dupers are allowed, stationary as well as moving ones (e.g. tunnel bores or flying machines). They must be switched off when not in use and must not enter other claims (§2.2, §3.3).",
       ),
-      ...exploitItems("5", 5),
+      exploitItems("5", 5)[0],
     ]),
     p("6", "package", "Tod, Loot & Ersatz", "Death, loot & replacement", [
       r(

@@ -1,5 +1,27 @@
 # Changelog
 
+## 01.11.2026 – WildSMP-Regelwerk kompakt
+
+Wie bei WildAttack: Doppelungen zusammengefasst, vage Regeln gestrichen, **94 → 58 Regeln**. Die Nummern haben sich dadurch geändert.
+
+### Geändert
+- **Ohne Claim kein Schutz (§3.1):** Ungeclaimte Bauten und Kisten dürfen abgebaut und geplündert werden. Vorher war Diebstahl aus ungesicherten Kisten in der Hauptwelt verboten.
+- **Trust (§3.3):** Wer Trust hat, darf auf dem Claim alles; nichts wird bestraft oder ersetzt. Vorher wurde Trust-Missbrauch bestraft und war ersatzpflichtig.
+- **Combat-Logging (§5.3):** 15 Sekunden nach einem Treffer kein Ausloggen, Serverwechsel oder Teleport.
+- **Fallen (§5.6):** kein Einsperren gegen den Willen, keine TPA-Fallen, keine Fallen zum Töten (löst den Widerspruch zwischen „Fallen in der Farmwelt erlaubt“ und „Fallen dürfen nicht schädigen“).
+- **TNT-Duper (§7.5):** stationär und beweglich erlaubt, bei Nichtnutzung aus.
+- **Ersatz (§8):** Nur Serverfehler werden ersetzt, alles andere ist Kulanz (vorher widersprachen sich „wird ersetzt“ und „jeder Ersatz ist Kulanz“).
+
+### Zusammengefasst
+- Accounts → §2.1–2.6, Claim-Blocking und öffentliche Bereiche → §3.4, Spawn/Straßen/Highways/Portale → §4.2
+- PvP nur in Farmwelten inkl. indirekter Wege und Redstone-Anlagen → §5.1; Farmwelt-Einwilligung, Resets, kein Schutz, kein Ersatz → §5.2
+- Scam, Wortbruch, falsche Shops, ChestShop-Miete → §6.1; Wetten und Coinflip → §6.6
+- Clocks, Farmen, Hoppernetze → §7.3
+
+### Entfernt
+- „Grundgedanke“, „extrem unschöne Bauten“, „Dauerjagen“, „Im Zweifel fragen“ (steht in §0.1), eigene Regel zu Claim-Verkauf (deckt §6.5 ab)
+- Ungenutzte gemeinsame Bausteine `trustRiskRule` und `trustAbuseRule`
+
 ## 01.11.2026 – WildAttack-Regelwerk kompakt
 
 Doppelungen zusammengefasst und vage Regeln gestrichen: **87 → 57 Regeln**, 11 statt 12 Paragraphen. Die Nummern haben sich dadurch geändert.

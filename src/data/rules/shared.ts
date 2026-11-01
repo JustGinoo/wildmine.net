@@ -159,25 +159,6 @@ export const chatParagraph = (num: string): RuleParagraph =>
       "Follow the team's instructions in game. Discussions about them happen afterwards via a ticket.",
     ),
   ]);
-
-/**
- * Trust, from both sides: the owner trusts at their own risk, so the team
- * replaces nothing, and the trusted player who abuses it still pays for it.
- */
-export const trustRiskRule = (ref: string) =>
-  r(
-    ref,
-    "Trust ist reine Vertrauenssache. Wer andere auf seinem Claim trusted, tut das auf eigenes Risiko: Schäden und Diebstähle durch getrustete Spieler ersetzt das Team nicht.",
-    "Trust is exactly that. Trusting someone on your claim is at your own risk: the team does not replace damage or theft caused by players you trusted.",
-  );
-
-export const trustAbuseRule = (ref: string) =>
-  r(
-    ref,
-    "Wer getrustet wird und das ausnutzt, um Schäden anzurichten oder zu stehlen, wird bestraft und muss den Schaden gegenüber dem Claim-Besitzer ersetzen.",
-    "Anyone who is trusted and abuses it to cause damage or steal is punished and has to make good the damage to the claim owner.",
-  );
-
 export const offensiveBuildsRule = (ref: string) =>
   r(
     ref,

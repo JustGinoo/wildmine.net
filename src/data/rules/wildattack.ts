@@ -137,11 +137,6 @@ export const wildattackRules: RuleSet = {
       ),
       tradeCommandRule("4.2"),
       realMoneyRule("4.3"),
-      r(
-        "4.4",
-        "Glücksspiel gibt es nur, wenn Spieler es selbst bauen, etwa mit Droppern. Die Gewinnchance muss gut sichtbar dranstehen, als Prozent oder z. B. „1 von 9“. Verluste werden nicht erstattet.",
-        "Gambling only exists when players build it themselves, for example with droppers. The odds must be clearly shown on it, as a percentage or e.g. \"1 in 9\". Losses are not refunded.",
-      ),
     ]),
     p("5", "cog", "Technik & Redstone", "Tech & redstone", [
       r(

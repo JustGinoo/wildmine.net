@@ -1,5 +1,9 @@
 # Changelog
 
+## 01.11.2026 – WildAttack: Glücksspiel-Regel entfernt
+
+- **Regel 4.4 entfernt** (selbst gebautes Glücksspiel mit sichtbarer Gewinnchance). Das Regelwerk hat jetzt **53 Regeln**.
+
 ## 01.11.2026 – Wiki: WildAttack-Werte
 
 - **Combat-Tag:** auf der WildAttack-Seite 30 Sekunden, auf der WildSMP-Seite 15 Sekunden. Das Gesamt-Wiki nennt beide Werte.

@@ -1,5 +1,10 @@
 # Changelog
 
+## 01.11.2026 – Winter-Design
+
+- **Neu: `SITE_SEASON` in der `.env`** erzwingt ein saisonales Design (`winter`, `halloween`, `default`). Ohne Eintrag entscheidet weiterhin das Datum.
+- Auf wildmine.net ist ab sofort das Winter-Design aktiv (Winter-Logo, -Hintergrund, Schnee, Winterfarben).
+
 ## 01.11.2026 – WildSMP-Regelwerk kompakt
 
 Wie bei WildAttack: Doppelungen zusammengefasst, vage Regeln gestrichen, **94 → 58 Regeln**. Die Nummern haben sich dadurch geändert.

@@ -16,7 +16,13 @@ export type Season = "default" | "winter" | "halloween";
  * Winter: Dec 1 – Jan 6, Halloween: Oct 15 – Oct 31.
  * Uses UTC month/day so it's stable regardless of server timezone.
  */
+const seasons: Season[] = ["default", "winter", "halloween"];
+
+/** `SITE_SEASON` in the .env forces a season; without it the date decides. */
 export function getSeason(date: Date = new Date()): Season {
+  const forced = process.env.SITE_SEASON as Season | undefined;
+  if (forced && seasons.includes(forced)) return forced;
+
   const month = date.getUTCMonth() + 1;
   const day = date.getUTCDate();
 

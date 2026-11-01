@@ -48,6 +48,7 @@ npm run dev
 |---|---|
 | `PROXY_API_URL`, `PROXY_API_TOKEN` | Status- und Spielzeit-API des Proxys (ohne: Fallback auf mcstatus.io) |
 | `LIVEMAP_WILDSMP_URL`, `LIVEMAP_WILDATTACK_URL` | squaremap-Server, die unter `/maps/…` eingebunden werden |
+| `SITE_SEASON` | Design erzwingen: `winter`, `halloween` oder `default`. Leer = nach Datum (Winter 1.12.–6.1., Halloween 15.–31.10.) |
 
 Logos, Hintergründe und Favicons gehören nicht zum Repository; ohne sie läuft die Seite, zeigt aber leere Bildflächen.
 
